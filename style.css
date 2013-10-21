@@ -1,7 +1,45 @@
 @charset "UTF-8";
 /* CSS Document */
+
+body
+{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
 #map { 
-			height: 600px;
-			width: 600px;
-			margin: 0 auto;
-		}
+	  width: 600px;
+	  height: 550px;
+	  float:left;
+	  margin : 0 auto;
+	}
+
+#sidebar
+{
+	 height: 550px;
+	  overflow: scroll;
+	 overflow-y: scroll;
+	 
+}
+	
+
+#mainframe
+{
+	 background-color:#E5E3DF;
+	 margin-left:10%;
+	 margin-right:10%;
+	 
+}
+
+.event
+{
+	padding:2%;
+	background-color:rgb(241,241,241);
+	margin:5%;
+}
+
+#template-description
+{
+	font-size:9px;
+}
+		
+		
