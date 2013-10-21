@@ -9,6 +9,9 @@ Create a single page web application that plots concerts for a musiciian of your
 Your page will render a Google Map when the page loads. Once the page is loaded, your app will make a JSONP request to the Eventful JSONP endpoint below. This endpoint will return a list of concerts and wrap the response data in a callback function named processJSONP. With this data, I want you to iterate over the list of events and plot each event on the Google Map. Each event has a latitude and longitude property for you to use. You will also create a list of the concerts from this same Eventful API data using client-side templating. 
 
 Eventful API JSONP endpoint
+
+Update your API Key. get it from Eventful.com
+
 http://api.eventful.com/json/events/search?c=music&app_key=API_KEY&page_number=1&date=Future&keywords=limp+bizkit&callback=processJSONP
 
 To get started:
@@ -32,4 +35,5 @@ city_name
 country_name
 display an image contained in image.medium
 Style your page so that the list of concerts is displayed in a readable, organized way. You should have a Google Map that is roughly 600px for one column and the other column will be a list of all the concerts and should be roughly 400px. Feel free to adjust the sizing to make it look to your liking.
+
 
