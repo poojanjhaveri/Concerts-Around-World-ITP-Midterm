@@ -12,7 +12,7 @@ var map = new google.maps.Map(document.getElementById('map'),{
 
 $(window).load(function () {
 // Send the Request        
-jsonRequest("http://api.eventful.com/json/events/search?c=music&app_key=gVsKKsfS5PsGS6sg&page_number=1&date=Future&keywords=kanye-west&callback=processJSONP");
+jsonRequest("http://api.eventful.com/json/events/search?c=music&app_key=APIKEY&page_number=1&date=Future&keywords=kanye-west&callback=processJSONP");
 });
 		
 /*
